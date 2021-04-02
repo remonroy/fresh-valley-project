@@ -1,0 +1,14 @@
+.leftsite {
+    width: 300px;
+    float: left;
+    text-align: center;
+    background: #363958;
+    padding: 5px;
+    color: white;
+}
+.leftsite img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid;
+}

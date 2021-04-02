@@ -1,0 +1,51 @@
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 0px;
+    /* width: 900px; */
+    margin: auto;
+}
+td img {
+    height: 64px;
+}
+td {
+    text-align: center;
+}
+button {
+    background: green;
+    padding: 5px;
+    border-style: none;
+    margin: 5px;
+    width: 133px;
+    font-weight: bold;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+/* mmmmmmm */
+/* .leftsite {
+    width: 300px;
+    float: left;
+    text-align: center;
+    background: #363958;
+    padding: 5px;
+    color: white;
+} */
+.main {
+    padding: 10px;
+    /* background: orange; */
+    overflow: hidden;
+}
+/* .leftsite img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid;
+} */
+.rightsite {
+    width: 951px;
+    float: right;
+    background: orange;
+    padding: 10px;
+}

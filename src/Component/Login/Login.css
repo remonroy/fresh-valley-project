@@ -1,0 +1,59 @@
+.loginInfo {
+    border: 2px solid tomato;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 34px;
+    margin-top: 10px;
+}
+input[type="submit"] {
+    width: 300px;
+    height: 25px;
+    border-style: none;
+    background: orange;
+    cursor: pointer;
+}
+input[type="text"] {
+    width: 300px;
+    margin-top: 27px;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input[type="password"] {
+    width: 300px;
+    margin-top: 27px;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.orSite img {
+    width: 50px;
+    transform: translateY(3px);
+}
+
+.orGoogle {
+    border: 1px solid rgb(170, 155, 152);
+    width: 278px;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+}
+
+.orGoogle img {
+    margin: 0px 0px -4px 0px;
+    transform: translateX(-44px);
+}
+button:focus { outline: none; }
+input:focus { outline: none; }
+.orGoogle button {
+    border-style: none;
+    background: white;
+    transform: translateY(0px);
+    cursor: pointer;
+    width: 147px;
+}

@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 0px;
+    width: 900px;
+    margin: auto;
+}
+td img {
+    height: 64px;
+}
+td {
+    text-align: center;
+}
+button {
+    background: green;
+    padding: 5px;
+    border-style: none;
+    margin: 5px;
+    width: 101px;
+    font-weight: bold;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
