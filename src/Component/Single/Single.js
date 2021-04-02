@@ -5,7 +5,7 @@ const Single = () => {
     const { id } = useParams();
     const[item,setItem]=useState([])
     useEffect(()=>{
-    fetch(`http://localhost:4500/singleProducts/${id}`)
+    fetch(`https://enigmatic-anchorage-12133.herokuapp.com/singleProducts/${id}`)
     .then(res=>res.json())
     .then(data=>setItem(data))
     },[])

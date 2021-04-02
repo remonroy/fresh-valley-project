@@ -15,7 +15,7 @@ const Addproduct = () => {
             quantiti:1
         }
         console.log(info);
-        const url=`http://localhost:4500/addEvent`;
+        const url=`https://enigmatic-anchorage-12133.herokuapp.com/addEvent`;
         fetch(url,{
             method:'POST',
             headers:{'content-type':'application/json'},

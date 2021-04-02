@@ -11,7 +11,7 @@ const Singleitem = ({ it }) => {
     const [loogeduser,setLoogeduser]=useContext(userContext)
     const handleClickorder=(product)=>{
        const orderInfo={...loogeduser,product:product,date:(new Date()).toDateString("dd/MM/yyy")}
-       fetch("http://localhost:4500/addOrder",{
+       fetch("https://enigmatic-anchorage-12133.herokuapp.com/addOrder",{
            method:"POST",
            headers:{"Content-Type":"application/json"},
            body:JSON.stringify(orderInfo)

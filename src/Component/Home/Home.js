@@ -5,7 +5,7 @@ import Single from '../Single/Single';
 const Home = () => {
     const [datainfo,setDatainfo]=useState([])
     useEffect(()=>{
-         fetch("http://localhost:4500/products")
+         fetch("https://enigmatic-anchorage-12133.herokuapp.com/products")
          .then(res=>res.json())
          .then(data=>setDatainfo(data))
     },[])

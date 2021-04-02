@@ -6,7 +6,7 @@ const Itemdelte = ({dlt}) => {
     
     const handleDelete=(id)=>{
         
-        fetch(`http://localhost:4500/delete/${id}`,{
+        fetch(`https://enigmatic-anchorage-12133.herokuapp.com/delete/${id}`,{
             method:'DELETE'
         })
         .then(res=>res.json())

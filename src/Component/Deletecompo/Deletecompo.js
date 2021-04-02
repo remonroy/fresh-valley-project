@@ -4,7 +4,7 @@ import Itemdelte from '../Itemdelte/Itemdelte';
 const Deletecompo = () => {
     const[deleed,setDeleted]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:4500/ollorderView")
+        fetch("https://enigmatic-anchorage-12133.herokuapp.com/ollorderView")
         .then(res=>res.json())
         .then(data=>setDeleted(data))
     },[])
